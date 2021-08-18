@@ -8,7 +8,7 @@ form.onsubmit = function (e) {
     
     var a = document.createElement('a');
 
-    a.href = `https://api.whatsapp.com/send/?phone=${phone}&text=${text}&app_absent=0`;
+    a.href = `https://api.whatsapp.com/send/?phone=91${phone}&text=${text}&app_absent=0`;
     // console.log(a.href);
     location.href = a.href;
    
